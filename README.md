@@ -1,29 +1,18 @@
-# progetto2start2impact2
+# YoYo - Friends
 
-This template should help get you started developing with Vue 3 in Vite.
+Progetto creato con Vue, ne quale consiste nella creazione di una Mobile App di yoga [Clicca qui](link) per vederla!
 
-## Recommended IDE Setup
+## STRUTTARA PAGINE
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+Il sito è composto da 3 pagine:
+- La homepage, dove è presente una parte introduttiva del sito, affiancato da un header ed a un footer che si possono riconoscere per via delle due linee;
+- I video, una pagina dove sono presenti tutti i video disponibili nel sito;
+- La VideoPage, ovvero la pagina dove quando clicchi sull’immagine video che ti interessa di più, caricherà il video da te selezionato più la parte commenti.
 
-## Customize configuration
+## LIBRERIE UTILIZZATE
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+Per questo progetto è stato utilizzato:
+- Axios, per prendere le informazioni all interno del file Data.json;
+- FontAwesome, per ottenere le due icone presenti nella sezione commenti;
+- Router, per permettere di mostrare url diversi tra di loro e dinamici;
+- plyr, per poter guardare i video una volta cliccata l’immagine
